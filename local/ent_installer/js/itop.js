@@ -1,0 +1,2 @@
+﻿setInterval(function () { httpGet(window.location.origin + '/sessionkeep.php') }, 1500000);
+function httpGet(myUrl) { var xmlHttp = null; xmlHttp = new XMLHttpRequest(); xmlHttp.open("GET", myUrl, false); xmlHttp.send(null); }

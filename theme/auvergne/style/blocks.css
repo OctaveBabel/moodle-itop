@@ -1,0 +1,237 @@
+/* @group Block global header aspect */
+
+#block-region-side-pre .block .header,
+#block-region-side-post .block .header {
+    background-color:#5cab1f;
+}
+
+#region-main .block .header {
+    background-color:#5cab1f;
+}
+
+/* @end */
+
+/* @group Block Icons */
+
+.dir-rtl .collapsed .tree_item.branch:before { 
+    content: " \f053";
+}
+
+.block_news_items .header .title h2:before {
+    content:"\f0a1";
+}
+
+.block_navigation .header .title h2:before {
+    content:"\f0e8";
+}
+
+.block_calendar_upcoming .header .title h2:before,
+.block_calendar_month .header .title h2:before {
+    content:"\f073";
+}
+
+.block_course_list .header .title h2:before {
+    content:"\f108";
+}
+
+.block_completionstatus .header .title h2:before,
+.block_selfcompletion .header .title h2:before {
+    content:"\f0e4";
+}
+
+.block_rss_client .header .title h2:before {
+    content:"\f09e";
+}
+
+.block_blog_menu .header .title h2:before {
+    content:"\f02d";
+}
+
+.block_quiz_results .header .title h2:before {
+    content:"\f080";
+}
+
+.block_quiz_navblock .header .title h2:before {
+    content:"\f126";
+}
+
+.block_glossary_random .header .title h2:before {
+    content:"\f0eb";
+}
+
+.block_book_toc .header .title h2:before {
+    content:"\f02d";
+}
+
+
+.block_participants .header .title h2:before,
+.block_online_users .header .title h2:before {
+    content:"\f0c0";
+}
+
+.block_html .header .title h2:before {
+    content:"\f022";
+}
+
+.block_section_links .header .title h2:before {
+    content:"\f02e";
+}
+
+.block_activity_modules .header .title h2:before {
+    content:"\f12e";
+}
+
+.block_comments .header .title h2:before {
+    content:"\f075";
+}
+
+.block_settings .header .title h2:before {
+    content:"\f085";
+}
+
+.block_admin_bookmarks .header .title h2:before{
+    content:"\f02e";
+}
+
+.block_blog_tags .header .title h2:before,
+.block_tags .header .title h2:before {
+    content:"\f02c";
+}
+
+.block_private_files .header .title h2:before {
+    content:"\f114";
+}
+
+.block_block_mentees .header .title h2:before {
+    content:"\f0c0";
+}
+
+.block_messages .header .title h2:before {
+    content:"\f0e0";
+}
+
+.block_community .header .title h2:before {
+    content:"\f0ac";
+}
+
+.block_login .header .title h2:before {
+    content:"\f007";
+}
+
+.block_recent_activity .header .title h2:before {
+    content:"\f017";
+}
+
+.block_search_forums .header .title h2:before {
+    content:"\f0e6";
+}
+
+.block_myprofile .header .title h2:before {
+    content:"\f007";
+}
+
+.block_adminblock .header .title h2:before {
+    content:"\f009";
+}
+
+.block_feedback .header .title h2:before {
+    content:"\f087";
+}
+
+.block_flickr .header .title h2:before {
+    content:"\f03e";
+}
+
+.block_youtube .header .title h2:before {
+    content:"\f145";
+}
+
+.block_course_badges .header .title h2:before {
+    content:"\f091";
+}
+
+.block_twitter_search .header .title h2:before {
+    content:"\f099";
+}
+
+.block_my_available_courses .header .title h2:before {
+    content:"\f19c";
+}
+
+.block_my_courses .header .title h2:before {
+    content:"\f19c";
+}
+
+.block_my_authored_courses .header .title h2:before {
+    content:"\f19c";
+}
+
+.block_my_heatmap .header .title h2:before {
+    content:"\f1fe";
+}
+
+.block_my_news .header .title h2:before {
+    content:"\f1ea";
+}
+
+.block_my_newsheads .header .title h2:before {
+    content:"\f1ea";
+}
+
+/* @end */
+
+.block_tree li.depth_2 {
+    border-bottom: 1px solid #f8f8f8;
+    padding: 2px 0;
+}
+
+.block_tree li.depth_2:hover {
+    background:url([[pix:theme|nav_over_bg]]) repeat-y;
+}
+
+.block_tree li.depth_2 ul {
+    padding:0px;
+    border-top:#e8e8e8 1px solid;
+    background-color:#eee;
+}
+
+.block_tree li.depth_2 ul li:first-child{
+    border:none;
+}
+
+.block_tree li.depth_2 ul li{
+    border-top:#f8f8f8 1px solid;
+}
+
+.icon-circle-blank:before{
+    content:' ' !important;
+    width:16px;
+    height:16px;
+    background: url([[pix:theme|depth2_bullet]]) no-repeat;
+}
+
+
+
+.custom-menu .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content {
+    background: none;
+    line-height: 2;
+    padding: 0;
+}
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}

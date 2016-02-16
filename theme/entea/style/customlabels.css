@@ -1,0 +1,966 @@
+/* General rules */
+
+td.custombox-header-thumb,
+td.custombox-header-thumb,
+td.custombox-thumb,
+td.custombox-thumb {
+    padding-top:1.2em;
+}
+
+#page-region-main td.custombox-header-thumb,
+#region-main td.custombox-header-thumb,
+#page-region-main td.custombox-thumb,
+#region-main td.custombox-thumb {
+    padding-top:1.5em;
+}
+
+.custombox-content-caption{
+    font-weight: bold !important;
+}
+
+/* disables module indent */
+li.customlabel .mod-indent-outer {
+    padding-left:0px !important;
+}
+
+#page-region-main .custombox-content-caption,
+#region-main .custombox-content-caption {
+    font-size:20px !important;
+}
+
+/* Course heading */
+
+tr.custombox-icon.courseheading {
+    min-height:0px !important;
+    height:initial !important;
+}
+
+div.custombox-preheading.courseheading {
+    font-size:1.5em;
+}
+
+div.custombox-heading.courseheading {
+    color:#23A7C1;
+    font-size: 3.2em;
+    line-height: 1.3em;
+    font-weight:100;
+    font-family:"gothic", sans-serif;
+}
+
+/* Sequence heading */
+
+.custombox-caption.sequenceheading {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    font-family:"gothic", sans-serif;
+    color: #151421 !important;
+    border-bottom: 5px solid #059DD1 !important;
+}
+
+.custombox-sequenceheading p {
+    /* font-size:12pt; */
+    width:100%;
+}
+
+tr.custombox-icon.sequenceheading {
+    min-height:85px;
+    color: #151421 !important;
+    height:85px;
+}
+
+.custombox-icon-left.sequenceheading {
+    min-width:65px;
+}
+
+.custombox-icon-right.sequenceheading {
+    min-width:65px;
+}
+
+.custombox-caption.sectionheading {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    font-family:"gothic", sans-serif;
+}
+
+.custombox-caption.unitheading {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-family:"gothic", sans-serif;
+    color:#A0A0A0;
+}
+
+/* Course data */
+
+.custombox-coursedata {
+    /* border: 1px solid #FFFFFF !important; */
+    width: 100% !important;
+}
+
+table.custombox-coursedata {
+    border: none !important;
+    border-collapse:separate;
+    margin:10px 0px 10px 0px;
+}
+
+.customlabel #course-view .weekscss .section, 
+#course-view .section td {
+    border-color: #ffffff;
+    color:#444444;
+}
+
+.custombox-title.coursedata {
+    background-color: #23A7C1 !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    padding: 5px !important;
+    text-align: left !important;
+}
+
+.custombox-param.coursedata {
+    background-color: #88ABC6 !important;
+    border: solid 1px #ffffff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    padding: 10px !important;
+}
+
+.custombox-value.coursedata {
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #666666 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+}
+
+/* Author data */
+
+.custombox-authordata {
+    /* border: 1px solid #FFFFFF !important; */
+    width: 100% !important;
+}
+
+table.custombox-authordata {
+    border: none !important;
+    border-collapse:separate;
+    margin:10px 0px 10px 0px;
+}
+
+.custombox-authordata p {
+    padding-top:0px;
+    margin-top:0px;
+}
+
+.custombox-title.authordata {
+    background-color: #23A7C1 !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    padding: 5px !important;
+    text-align: left !important;
+}
+
+.custombox-param.authordata {
+    background-color: #88ABC6 !important;
+    border: solid 1px #ffffff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    padding: 10px !important;
+    width:40%;
+}
+
+.custombox-authordata td.custombox-value.authordata {
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #222222 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+    width:60%;
+}
+
+/*  course classifier */
+
+.custombox-courseclassifier {
+    /* border: 1px solid #FFFFFF !important; */
+    width: 100% !important;
+}
+
+table.custombox-courseclassifier {
+    border: none !important;
+    border-collapse:separate;
+    margin:10px 0px 10px 0px;
+}
+
+.custombox-courseclassifier p {
+    padding-top:0px;
+    margin-top:0px;
+}
+
+.custombox-title.courseclassifier {
+    background-color: #23A7C1 !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    padding: 5px !important;
+    text-align: left !important;
+}
+
+.custombox-param.courseclassifier {
+    background-color: #88ABC6 !important;
+    border: solid 1px #ffffff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    padding: 10px !important;
+}
+
+.custombox-value.courseclassifier {
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #666666 !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+}
+
+/* Pedagogic Advice */
+
+#page-region-pre td.custombox-thumb.pedagogicadvice,
+#region-pre td.custombox-thumb.pedagogicadvice,
+#region-post td.custombox-thumb.pedagogicadvice,
+#page-region-post  td.custombox-thumb.pedagogicadvice {
+    min-width:35px;
+    width:35px !important;
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png"); 
+    background-size:50%;
+    background-position:20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+    color:white;
+}
+
+td.custombox-thumb.pedagogicadvice:after {
+    content: "\f02e"; /* fa-bookmark */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#region-main td.custombox-thumb.pedagogicadvice,
+#page-region-main td.custombox-thumb.pedagogicadvice {
+    width:65px !important;
+    min-width:65px !important;
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png") !important; 
+    background-position:30% 0% !important;
+    background-repeat: no-repeat !important;
+    height:73px !important;
+    text-align:center !important;
+    color:white !important;
+}
+
+td.custombox-content-text.pedagogicadvice {
+    padding-left:10px;
+}
+
+/* Author notes */
+
+#page-region-pre td.custombox-thumb.authornote,
+#region-pre td.custombox-thumb.authornote,
+#region-post td.custombox-thumb.authornote,
+#page-region-post  td.custombox-thumb.authornote {
+    min-width:35px;
+    width:35px !important;
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png"); 
+    background-size:50%;
+    background-position:20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+    color:white;
+}
+
+td.custombox-thumb.authornote:after {
+    content: "\f097"; /* fa-bookmark-o */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#region-main td.custombox-thumb.authornote,
+#page-region-main td.custombox-thumb.authornote {
+    width:65px !important;
+    min-width:65px !important;
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png") !important; 
+    background-position:30% 0% !important;
+    background-repeat: no-repeat !important;
+    height:73px !important;
+    text-align:center !important;
+    color:white !important;
+}
+
+
+/* Important */
+
+#page-region-main td.custombox-header-thumb.important,
+#region-main td.custombox-header-thumb.important{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/icon_important.png") !important; 
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+#page-region-pre td.custombox-header-thumb.important,
+#region-pre td.custombox-header-thumb.important,
+#region-post td.custombox-header-thumb.important,
+#page-region-post  td.custombox-header-thumb.important{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/icon_important_small.png") !important; 
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-content.important{
+    background-color: #ffffff !important;
+      background-image: none !important;
+      color: #990000 !important;
+}
+
+/* Soluce */
+
+#page-region-main td.custombox-header-thumb.soluce,
+#region-main td.custombox-header-thumb.soluce {
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/greenspot.png") !important; 
+    background-position:30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+    color:white;
+}
+
+td.custombox-header-thumb.soluce:after {
+    content: "\f1cd"; /* fa-support */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+
+#page-region-pre td.custombox-header-thumb.soluce,
+#region-pre td.custombox-header-thumb.soluce,
+#region-post td.custombox-header-thumb.soluce,
+#page-region-post td.custombox-header-thumb.soluce{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/greenspot.png") !important; 
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-header-caption.soluce{
+    font-size:1.3em !important;
+}
+
+table.custombox-soluce{
+    background-image: none !important;
+}
+
+/* Tips and tricks */
+
+#page-region-main td.custombox-header-thumb.tipsandtricks,
+#region-main td.custombox-header-thumb.tipsandtricks{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/greenspot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.tipsandtricks:after {
+    content: "\f0eb"; /* fa-lighttube-o */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.tipsandtricks,
+#region-pre td.custombox-header-thumb.tipsandtricks,
+#region-post td.custombox-header-thumb.tipsandtricks,
+#page-region-post td.custombox-header-thumb.tipsandtricks{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/greenspot.png") !important; 
+    background-size: 50%;
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-header-caption.tipsandtricks{
+    color: #21C233 !important;
+}
+
+
+/* See Also */
+
+#page-region-main td.custombox-header-thumb.seealso,
+#region-main td.custombox-header-thumb.seealso{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.seealso:after {
+    content: "\f141"; /* fa-ellipsis-h */
+    font-family: "fontAwesome", sans-serif;
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.seealso,
+#region-pre td.custombox-header-thumb.seealso,
+#region-post td.custombox-header-thumb.seealso,
+#page-region-post td.custombox-header-thumb.seealso{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-header-caption.seealso {
+    color:#21A1C2 !important;
+}
+
+td.custombox-content.seealso{
+    background-image: none !important;
+}
+
+/* Local goals */
+
+#page-region-main td.custombox-header-thumb.localgoals,
+#region-main td.custombox-header-thumb.localgoals{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.localgoals:after {
+    content: "\f091"; /* fa-trophy */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.localgoals,
+#region-pre td.custombox-header-thumb.localgoals,
+#region-post td.custombox-header-thumb.localgoals,
+#page-region-post td.custombox-header-thumb.localgoals{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-content.localgoals{
+    background-image: none !important;
+}
+
+td.custombox-header-caption.localgoals {
+    color: #23A7c1 !important;
+}
+
+/* Définition */
+
+#page-region-main td.custombox-header-thumb.definition,
+#region-main td.custombox-header-thumb.definition{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/redspot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.definition:after {
+    content: "\F13D"; /* fa-anchor */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.definition,
+#region-pre td.custombox-header-thumb.definition,
+#region-post td.custombox-header-thumb.definition,
+#page-region-post td.custombox-header-thumb.definition{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/redspot.png") !important; 
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-content.definition{
+    font-size:1.3em;
+    letter-spacing:0.5px;
+    font-style:italic;
+    font-weight:normal;
+    padding:10px;
+    background-image: none !important;
+}
+
+td.custombox-header-caption.definition{
+    color: #A00000 !important;
+}
+
+/* Theorema */
+
+#page-region-main td.custombox-header-thumb.theorema,
+#region-main td.custombox-header-thumb.theorema{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/orangespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.theorema:after {
+    content: "\f12e";
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.theorema,
+#region-pre td.custombox-header-thumb.theorema,
+#region-post td.custombox-header-thumb.theorema,
+#page-region-post td.custombox-header-thumb.theorema{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/orangespot.png") !important; 
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-content.theorema{
+    background-image: none !important;
+}
+
+td.custombox-header-caption.theorema {
+    color: #F2A439 !important;
+}
+
+/* Keypoints */
+
+#page-region-main td.custombox-header-thumb.keypoints,
+#region-main td.custombox-header-thumb.keypoints{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/orangespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+    color:white;
+}
+
+td.custombox-header-thumb.keypoints:after {
+    content: "\f0f3"; /* fa-bell */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.keypoints,
+#region-pre td.custombox-header-thumb.keypoints,
+#region-post td.custombox-header-thumb.keypoints,
+#page-region-post td.custombox-header-thumb.keypoints{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/orangespot.png") !important; 
+    background-size:50%
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-content.keypoints{
+    padding-left:22px !important;
+}
+
+td.custombox-content.keypoints{
+    background-image: none !important;
+}
+
+.customlabel ul.keypoints li{
+    list-style-image:url(pix/tick.png) !important;
+}
+
+/* Example */
+
+#page-region-main td.custombox-header-thumb.example,
+#region-main td.custombox-header-thumb.example{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+    color:white;
+}
+
+td.custombox-header-thumb.example:after {
+    content: "\f0c3";
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.example,
+#region-pre td.custombox-header-thumb.example,
+#region-post td.custombox-header-thumb.example,
+#page-region-post td.custombox-header-thumb.example{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/grayspot.png") !important; 
+    background-size: 50%;
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-content.example{
+    padding-left:22px !important;
+}
+
+td.custombox-content.example{
+    background-image: none !important;
+}
+
+/* contact points */
+
+#page-region-main td.custombox-header-thumb.contactpoint,
+#region-main td.custombox-header-thumb.contactpoint{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint:after {
+    content: "\f0ec"; /* fa-exchange */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint,
+#region-pre td.custombox-header-thumb.contactpoint,
+#region-post td.custombox-header-thumb.contactpoint,
+#page-region-post td.custombox-header-thumb.contactpoint{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.phone,
+#region-main td.custombox-header-thumb.contactpoint.phone{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.phone:after {
+    content: "\f095"; /* fa-phone */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint.phone,
+#region-pre td.custombox-header-thumb.contactpoint.phone,
+#region-post td.custombox-header-thumb.contactpoint.phone,
+#page-region-post td.custombox-header-thumb.contactpoint.phone{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.mail,
+#region-main td.custombox-header-thumb.contactpoint.mail{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.mail:after {
+    content: "\f0e0"; /* fa-envelope */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint.mail,
+#region-pre td.custombox-header-thumb.contactpoint.mail,
+#region-post td.custombox-header-thumb.contactpoint.mail,
+#page-region-post td.custombox-header-thumb.contactpoint.mail{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.onlinevocal,
+#region-main td.custombox-header-thumb.contactpoint.onlinevocal{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.onlinevocal:after {
+    content: "\f025"; /* fa-headphones */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint.onlinevocal,
+#region-pre td.custombox-header-thumb.contactpoint.onlinevocal,
+#region-post td.custombox-header-thumb.contactpoint.onlinevocal,
+#page-region-post td.custombox-header-thumb.contactpoint.onlinevocal {
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.facetoface,
+#region-main td.custombox-header-thumb.contactpoint.facetoface{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.facetoface:after {
+    content: "\f183\f183"; /* fa-male * 2 */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint.facetoface,
+#region-pre td.custombox-header-thumb.contactpoint.facetoface,
+#region-post td.custombox-header-thumb.contactpoint.facetoface,
+#page-region-post td.custombox-header-thumb.contactpoint.facetoface{    
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.meeting,
+#region-main td.custombox-header-thumb.contactpoint.meeting{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.meeting:after {
+    content: "\f0c0"; /* fa-users */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.contactpoint.meeting,
+#region-pre td.custombox-header-thumb.contactpoint.meeting,
+#region-post td.custombox-header-thumb.contactpoint.meeting,
+#page-region-post td.custombox-header-thumb.contactpoint.meeting{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+#page-region-main td.custombox-header-thumb.contactpoint.chat,
+#region-main td.custombox-header-thumb.contactpoint.chat {
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.contactpoint.chat:after {
+    content: "\f120"; /* fa-terminal */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-post td.custombox-header-thumb.contactpoint.chat,
+#region-post td.custombox-header-thumb.contactpoint.chat,
+#region-pre td.custombox-header-thumb.contactpoint.chat,
+#page-region-pre td.custombox-header-thumb.contactpoint.chat{    
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/darkbluespot.png") !important; 
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+/* Work to do */
+
+#page-region-main td.custombox-header-thumb.worktodo,
+#region-main td.custombox-header-thumb.worktodo{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-position: 30% 0%;
+    background-repeat: no-repeat;
+    height:73px !important;
+    width:80px !important;
+    min-width:80px !important;
+    border-right:1px solid #A0A0A0 !important;
+    text-align:center;
+}
+
+td.custombox-header-thumb.worktodo:after {
+    content: "\f085"; /* fa-cogs */
+    font-family: "fontAwesome";
+    color:#ffffff;
+    font-size:32px;
+}
+
+#page-region-pre td.custombox-header-thumb.worktodo,
+#region-pre td.custombox-header-thumb.worktodo,
+#region-post td.custombox-header-thumb.worktodo,
+#page-region-post td.custombox-header-thumb.worktodo{
+    background-image: url("/theme/entea/pix_plugins/mod/customlabel/bluespot.png") !important; 
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height:73px !important;
+    width:35px !important;
+    min-width:35px !important;
+    border-right:1px solid #A0A0A0 !important;
+}
+
+td.custombox-header-caption.worktodo{
+    font-size:1.3em !important;
+    padding-bottom:5px !important;
+    color:#23A7c1 !important;
+}
+
+td.custombox-content.worktodo{
+    font-weight:normal;
+    background-image: none !important;
+}

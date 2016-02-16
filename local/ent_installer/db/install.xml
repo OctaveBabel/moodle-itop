@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/ent_installer/db" VERSION="20110121" COMMENT="XMLDB file for Moodle ENT intaller"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="local_ent_installer" COMMENT="Table to store user sync stats data">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="timestart"/>
+        <FIELD NAME="timestart" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="id" NEXT="timerun"/>
+        <FIELD NAME="timerun" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="timestart" NEXT="added"/>
+        <FIELD NAME="added" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="timerun" NEXT="updated" />
+        <FIELD NAME="updated" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="added" NEXT="inserterrors" />
+        <FIELD NAME="inserterrors" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="updated" NEXT="updateerrors" />
+        <FIELD NAME="updateerrors" TYPE="int" LENGTH="11" NOTNULL="false" SEQUENCE="false" PREVIOUS="inserterrors" />
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

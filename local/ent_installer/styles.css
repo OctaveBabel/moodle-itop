@@ -1,0 +1,18 @@
+.technical-output{
+    padding:5px;
+    font-size:10px;
+    background:#DCD7F9;
+    color:black;
+    border:1px dashed #808080;
+    border-radius:5px;
+}
+
+.console{
+    padding:10px;
+    font-size:10px;
+    background:#DCD7F9;
+    font-family:monospace;
+    color:black;
+    border:1px dashed #808080;
+    border-radius:5px;
+}

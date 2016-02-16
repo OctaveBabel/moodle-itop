@@ -1,0 +1,665 @@
+
+@font-face {
+    font-family: 'FontAwesome'; 
+    font-weight: normal;
+    font-style: normal;
+    src: url('[[setting:fontwww]]fontawesome-webfont.eot?v=3.2.1');
+    src: url('[[setting:fontwww]]fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), 
+         url('[[setting:fontwww]]fontawesome-webfont.woff?v=3.2.1') format('woff'), 
+         url('[[setting:fontwww]]fontawesome-webfont.ttf?v=3.2.1') format('truetype'), 
+         url('[[setting:fontwww]]fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url('[[setting:fontwww]]gothic.eot');
+    src: local('gothic'), 
+         url('[[setting:fontwww]]gothic.woff') format('woff'), 
+         url('[[setting:fontwww]]gothic.ttf') format('truetype');
+}
+
+
+/* Custom CSS
+-------------------------*/
+
+body {
+    background: url([[pix:theme|my_background]]);
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+label, input, button, select, textarea {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+a {
+    color: #15a4bc;
+    text-decoration: none;
+}
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+body{
+       padding-top: 0px;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled]
+{color:#fff;background-color:#15a4bc;*background-color:#1caec7}
+
+.breadcrumb-nav {
+  
+    font-family: Century Gothic,Arial,sans-serif;
+    margin-bottom: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 70%;
+}
+
+nav ul {
+    list-style: none outside none;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-left:5px;
+    display:inline;
+}
+
+nav ul li {
+    display:inline;
+}
+
+.breadcrumb-button{
+    margin:0px;
+}
+
+.header_bg_right_cont{
+       background-position: 100% 0;
+    background-repeat: no-repeat;
+   
+}
+
+.container-fluid{
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+header .singlebutton div {
+    margin-bottom:0px;
+}
+
+.navbar-inner .container-fluid{
+    padding-right:0px;
+}
+
+.logininfo {
+   color:white;
+    opacity: 0.7;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logininfo a{
+     color:white;
+}
+
+#page-footer {
+    background-color: #23A7C1;
+    border-top: 2px solid #ddd;
+    margin-top: 0px;
+    padding: 1em 0;
+    color:white;
+        font-size: 12px;
+}
+
+#page-footer .logininfo{
+    background-color:transparent;
+    opacity:1;
+    display:inline;
+}
+
+#page-footer .helplink {
+    display:inline;
+}
+
+#page-footer a{
+    color:white;
+}
+
+.block {
+    background-color:#fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+    box-shadow:none;
+    margin-bottom: 10px;
+    min-height: 20px;
+    padding: 0px 0;
+}
+
+.block .header{
+    background-color:#6f6f6f;
+    color:white;
+}
+
+.block .header h2 {
+    color: white;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 5px 15px;
+    text-shadow: none;
+    text-transform:none;
+    word-wrap: break-word;
+}
+
+#page {
+    /* background-color:#ededed; */
+    padding-top: 5px;
+}
+
+body.has_dock
+#page {
+    padding-left:45px !important;
+}
+
+
+#region-main {
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+    padding: 5px 15px 5px 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+color:#6f6f6f;
+}
+
+.course-content ul li.section.main {
+    border-bottom: 1px dashed #6e7d64;
+    margin-top: 0;
+}
+
+.block_settings{
+    font-family: Trebuchet MS;
+}
+
+#dock {
+    background-color: transparent;
+    border-right: 0 none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 80px;
+    width: 42px;
+}
+
+#dock .dockedtitle {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #15a4bc, #1fabc3);
+    background-repeat: repeat-x;
+  
+    border-image: none;
+    border-radius: 0px;
+    border: 0 solid #ededed;
+    box-shadow:none;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 1px 0px 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    width: 36px;
+}
+
+#dock .dockedtitle h2 {
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1caec7;
+    background-image: linear-gradient(to bottom, #15a4bc, #1caec7);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-large {
+    border-radius: 4px;
+    font-size: 13.5px;
+    padding: 6px 13px;
+}
+
+
+.mform fieldset.collapsible legend a.fheader {
+    color: #666;
+    font-size: 16px;
+    margin-left: 0px;
+    padding: 0 5px 0 20px;
+}
+
+#block-region-side-pre {
+    font-family: Century Gothic,Arial,sans-serif;
+    font-size:13px;
+}
+
+/* FontAwesome application */
+
+ul.breadcrumb li:after { 
+    font-family: FontAwesome;
+}
+
+.tree_item.branch:before { 
+    font-family: FontAwesome;
+    content: "\f07c ";
+    color: #999;
+    margin-right: 5px;
+}
+
+.collapsed .tree_item.branch:before { 
+    font-family: FontAwesome;
+    content: "\f07b ";
+    color: #999;
+    margin-right: 5px;
+}
+
+.block .header .title h2:before {
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    margin-right: .3em;
+    content: "\f0c9";
+    font-weight:normal;
+}
+
+#page-site-index h2.headingblock:before {
+    color: [[setting:themecolor]];
+    display: block;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 1.2em;
+    height: 1.3em;
+    margin-right: .2em;
+    text-align: center;
+    width: 1.5em;
+    content:"\f0b1";
+}
+
+#page-site-index #site-news-forum h2.headingblock:before {
+    content:"\f0a1";
+}
+
+#frontpage-category-names h2.headingblock:before {
+    content:"\f07c";
+}
+
+.performanceinfo,
+.purgecaches {
+    background-color:#FDFED6;
+    font-size:12px;
+    font-family:monospace;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    color:#444;
+    margin:0px 30px;
+}
+
+.purgecaches *{
+    color:#444 !important;
+}
+
+.performanceinfo h2:before {
+    font-family: FontAwesome;
+    font-size: 1.65em;
+    margin-right: .3em;
+    content: "\f05a";
+}
+
+.performanceinfo span{
+    color:#444;
+    display: block;
+}
+
+.performanceinfo #load:before {
+    font-family: FontAwesome;
+    font-size: 1em;
+    margin-right: .3em;
+    color: #44e;
+    font-style: normal;
+    font-weight: 100;
+    content: "\f017";
+}
+
+.performanceinfo #memory:before {
+    font-family: FontAwesome;
+    font-size: 1em;
+    margin-right: .3em;
+    color: #44e;
+    font-style: normal;
+    content: "\f0e4";
+}
+
+.performanceinfo #included:before {
+    font-family: FontAwesome;
+    font-size: 1em;
+    margin-right: .3em;
+    color: #44e;
+    font-style: normal;
+    content: "\f16c";
+}
+
+.performanceinfo #db:before {
+    font-family: FontAwesome;
+    font-size: 1em;
+    margin-right: .3em;
+    color: #44e;
+    font-style: normal;
+    content: "\f181";
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
+
+<!-- HEADER AND MENU --> 
+
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    left: 0;
+    margin-bottom: 0;
+    position:relative;
+    right: 0;
+    z-index: 1030;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+}
+
+.navbar-inner {
+    background-color: #23a7c1;
+    background-image: none;
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    line-height: 2;
+    padding: 0;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label {
+    background: none;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border-color: #808080;
+    border-style: solid;
+    border-width: 0px 0;
+    float: left;
+    margin: -1px 0;
+    padding: 0 10px;
+    width: auto;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal li {
+    padding-top: 13px;
+}
+
+
+.yui3-skin-sam .yui3-menu-label, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label {
+ background-position: 103% 7px;   
+}
+
+#custom_menu_1 {
+    background-color: #23a7c1;
+}
+
+.yui3-skin-sam .yui3-menu-label, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menu-label, .yui3-skin-sam .yui3-menuitem-content, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menuitem-content {
+    border: 0 none;
+    color: white;
+    cursor: default;
+    float: none;
+    margin: 0;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  
+    position: relative;
+   
+}
+
+
+.dropdown-submenu > .dropdown-menu {
+    border-radius: 6px;
+    left: 165px;
+    margin-left: -1px;
+    margin-top: -6px;
+    top: 0;
+}
+
+header{
+    font-size: 12px;
+}
+
+#page-navbar{
+    
+}
+
+.header-banner{
+ height:65px;
+ background-color:white;   
+}
+.header-banner-left{
+  background-image: url([[pix:theme|header-bg-left]]);
+  width:379px; 
+   background-position: 0 0;
+    height: 65px;
+    float:left;
+    background-repeat: no-repeat;
+
+}
+.header-banner-right{
+  background-image: url([[pix:theme|header-bg-right]]);
+   background-position: 100% 0;
+    background-repeat: no-repeat;
+    float: right;
+    height: 65px;
+    width:31%;
+}
+
+/** Fix icons visibility in administration */
+
+#cohorts .action {
+    background-color:#23a7c1;
+}
+
+#course-category-listings .listitem-category > div > .float-right {
+    background-color: #23a7c1;
+}
+#course-category-listings .listitem-course > div > .float-right {
+    background-color: #23a7c1;
+}
+#course-category-listings #category-listing .course-count {
+    color:#404040;
+}
+
+.path-admin img.iconsmall,
+#page-admin-user img.iconsmall,
+#page-enrol-instances img.iconsmall,
+#page-enrol-users img.smallicon {
+    background-color: #23a7c1;
+}
+
+.path-course-view #region-main img.iconsmall,
+.path-course-view #region-main img.icon {
+    background-color: #87D8E9;
+}
+
+/* fix labels widht when editing */
+.editing .section .activity .contentwithoutlink, .editing .section .activity .activityinstance {
+    padding-top:30px;
+    padding-right:0px;
+}
+
+/* fix labels width blue background in category management */
+#course-category-listings .listitem > div span.idnumber {
+    height: 100%;
+    display: inline-block;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+#course-category-listings .listitem > div div.category-item-actions {
+    width: 90px;
+    display: inline-block;
+}
+
+.navbar-inner .usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+/* fix question list item into quiz */
+div.mod-quiz-edit-content ul.slots ul.section li.activity div.activityinstance {
+    padding-top: 0;
+}
+
+/* prevent pics aside to menu items */
+div.block_settings div.content div.block_tree_box ul.block_tree li.type_setting li.item_with_icon p.tree_item.leaf img.smallicon.navicon {
+    visibility: hidden;
+}
+
+/* fix alignment between drag and drop button and its activity label */
+div.course-content ul.section li.activity div.activityinstance {
+    padding-top: 0;
+}
+
+/* fix new question select box */
+.moodle-actionmenu.show[data-enhanced] .menu a:hover {
+    color: #FFF;
+    background-color: #23a7c1;
+    background-image: none;
+}
+
+/* fix bootstrap standard style applied on submit button  */
+input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input {
+    background-color: #23a7c1;
+    background-image: none;
+}
+input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover {
+    background-color: #049bb7;
+    background-image: none;
+}
+
+/* adapt moodle new header user menu */
+.jsenabled .usermenu .moodle-actionmenu.show {
+    background-color: #049bb7;
+}
+.jsenabled .usermenu .moodle-actionmenu.show .menu a:hover {
+    text-decoration: none;
+    background-color: #23a7c1;
+    background-image: none;
+    background-repeat: repeat-x;
+}
+
+/* fix vmoodle command category alignment on super admin page */
+div#vmblock_generic div.header div.title h2,
+div#vmblock_plugins div.header div.title h2,
+div#vmblock_roles div.header div.title h2,
+div#vmblock_test div.header div.title h2,
+div#vmblock_upgrade div.header div.title h2 {
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+/* Set activity menu larger into activity modal window */
+div.moodle-has-zindex.chooserdialogue-course-modchooser.moodle-dialogue.chooserdialogue.moodle-dialogue-focused {
+    width: 740px !important;
+}
+div.moodle-dialogue-wrap.moodle-dialogue-content div.moodle-dialogue-bd div.choosercontainer div.instruction,
+div.moodle-dialogue-wrap.moodle-dialogue-content div.moodle-dialogue-bd div.choosercontainer span.typesummary {
+    left: 24.3em !important;
+}
+div.moodle-dialogue-wrap.moodle-dialogue-content div.moodle-dialogue-bd div.choosercontainer div.alloptions {
+    max-width: 24.3em !important;
+}
+
+/* Make eye button visible into restrict availability section from module settings */
+.availability-field .availability-list .availability-item a.availability-eye img {
+    background-color: #23A7C1;
+}
+
+/* command button into glossary moderation */
+.glossarydisplay .glossarypost .glossaryapproval .action-icon img.iconsmall {
+    background-color: #23A7C1;
+}
+.glossarydisplay .glossarypost .commands {
+    background-color: #23A7C1;
+    color: #fff;
+    padding: 1px 0 5px;
+}
+
+/* fix for the plugin format_onetopic which put dirty div into li tabs, no comment... */
+.tabtree ul li a span div.tab_content {
+    display: inline;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* remove the dirty line displayed in course (TFS 17308) */
+.tabtree .tabrow0 div {
+    background-color: transparent;
+}

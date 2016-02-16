@@ -1,0 +1,85 @@
+
+.navbar .nav > li > a {
+    color: #fff;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover{
+    color:white;
+    background-color: #42b1c7;
+    
+}
+.nav > li > a {
+    display: block;
+}
+
+.navbar .nav > li {
+   background-color: #5cab1f;
+    border-right: 1px solid #9ed4de;
+    float: left;
+}
+
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret:hover{
+    border-bottom-color: #fff;
+    border-top-color: #fff; 
+}
+
+
+.navbar .brand {
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: -20px;
+    padding: 10px 20px;
+    text-shadow: none;
+}
+.pull-right li.navbar-text , .pull-right li.navbar-text:hover {
+    background-color: #5cab1f;
+    border-right: none;
+} 
+
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+    background-color: #b2e3ec;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret:hover {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: #b2e3ec;
+}
+
+.dropdown-menu {
+  border-radius: 0px;   
+}
+
+.dropdown-menu li {
+    background-color: #5cab1f;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    border-radius: 0px;
+    left: 155px;
+    margin-left: -1px;
+    margin-top: -6px;
+    top: 0;
+}
+
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    padding: 9px 15px;
+}
